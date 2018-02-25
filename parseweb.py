@@ -1,3 +1,6 @@
+#! python3
+#parseweb.py - parse today's headers from Medium on programming topics
+
 import requests, bs4, os
 res = requests.get('https://medium.com/topic/programming')
 
